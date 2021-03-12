@@ -1,0 +1,95 @@
+
+#drop{
+  border:1px solid #d4d4d4;
+  -moz-border-radius:5px;
+  -webkit-border-radius:5px;
+  border-radius:5px;
+  padding:50px 25px;
+  text-align:center;
+  width:100%;
+  margin: 10px 0;
+  font:20pt bold,"Vollkorn";color:#bbb
+}
+
+.images{
+  display: inline-block;
+  background-color: #f9f9f9;
+  border-radius: 50%;
+  height: 350px;
+  width: 350px;
+}
+
+.images img {
+  margin-top: 70px
+}
+
+.upload h3 {
+  font-size: 16px;
+  color: #888686;
+  margin-top: 10px;
+  font-family: "Poppins", sans-serif;
+}
+
+.images h2 {
+  font-weight: normal;
+  color: #777777;
+}
+
+#left {
+  width:188px;
+  position:absolute;
+  left:0;
+}
+#right {
+  position:absolute;
+  left:200px;
+}
+#logo {
+  padding:25px;
+}
+#header {
+  height:168px;
+}
+#grid {
+  height: 100px;
+  display: none;
+}
+
+.winpt { width:98%; }
+.success { color: #468847; }
+.error { color: #b94a48; }
+.info { color: #3a87ad; }
+pre { white-space: pre-wrap; }
+
+.custom-file-input {
+  color: transparent;
+  opacity: 1;
+}
+.custom-file-input::-webkit-file-upload-button {
+  visibility: hidden;
+}
+.custom-file-input::before {
+  content: 'OPEN FILE';
+  color: red;
+  display: inline-block;
+  background: #ffffff;
+  border: 1px solid red;
+  border-radius: 3px;
+  padding: 8px 15px;
+  outline: none;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  cursor: pointer;
+  text-shadow: 1px 1px #fff;
+  font-weight: 700;
+  font-size: 10pt;
+}
+.custom-file-input:hover::before {
+  border-color: black;
+}
+.custom-file-input:active {
+  outline: 0;
+}
+.custom-file-input:active::before {
+  background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9); 
+}
